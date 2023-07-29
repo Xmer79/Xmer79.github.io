@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7fbff;
+  font-family: "Roboto Slab", serif;
+}
+.container {
+  padding: 2rem 2rem;
+  margin-top: 5rem;
+  border-radius: 2rem;
+  border-radius: 2.9rem;
+  box-shadow: 0.1rem 0.1rem 0.43rem 0.1rem rgba(0, 0, 0, 0.235);
+  border-radius: 2.4rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+  background-size: contain;
+  background-color: #e7f3ff;
+}
+.section-main {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.heading {
+  font-size: 4.2rem;
+  margin-bottom: 1rem;
+  color: #5F68C3;
+  align-self: center;
+}
+.sub-heading {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #a8a8a4;
+  vertical-align: middle;
+}
+.input-area:focus {
+  outline: none;
+}
+.google-play-button {
+  align-self: center;
+  cursor: pointer;
+
+
+
+  flex-wrap: wrap;
+  border-radius: 2rem;
+  font-weight: bolder;
+  padding: 10px 50px;
+  font-size: 2rem;
+  background-color: #ffffff;
+  border: 1rem solid #ffffff;
+  box-shadow: 0 0.1rem 0.1rem 0.1rem rgba(41, 41, 43, 0.381);
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.google-play-button:active,
+.google-play-button:hover {
+  transform: scale(0.98);
+}
+/* @media (max-width:55em) {
+  
+} */
+
+
