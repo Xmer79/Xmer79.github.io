@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<script type="text/javascript">
+    function redirectToGP()
+    {
+    var url = "https://play.google.com/store/apps/dev?id=7818587959845695804";
+    window.location(url);
+    }
+    function redirectToRS()
+    {
+    var url = "https://xmer79.github.io/resume.pdf";
+    window.location(url);
+    }
+    </script>
+
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,8 +36,8 @@
             <p class="header-subtitle">Software Developer</p>
             <h3>Mail: Xmer79@gmail.com</h3>
     
-            <button class="btn btn-primary" onclick="parent.open('https://play.google.com/store/apps/dev?id=7818587959845695804')"> Open Google Play Profile </button>
-            <button class="btn btn-primary" onclick="parent.open('https://xmer79.github.io/resume.pdf')"> Download Resume </button>
+            <button class="btn btn-primary" onclick="redirectToGP()"> Open Google Play Profile </button>
+            <button class="btn btn-primary" onclick="redirectToRS()"> Download Resume </button>
         </div>              
     </header>   
 
